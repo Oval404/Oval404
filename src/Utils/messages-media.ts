@@ -813,7 +813,7 @@ export const getWAUploadToServer = (
 		}
 
 		// Tentukan path yang tepat berdasarkan apakah ini dikirim ke newsletter atau bukan
-		const mediaPath = (newsletter ? NEWSLETTER_MEDIA_PATH_MAP[mediaType] : MEDIA_PATH_MAP[mediaType]) || MEDIA_PATH_MAP[mediaType]
+		const mediaPath = (newsletter ? NEWSLETTER_MEDIA_PATH_MAP[mediaType] : MEDIA_PATH_MAP[mediaType]) || MEDIA_PATH_MAP[mediaType]!
 
 		for (const { hostname } of hosts) {
 			logger.debug(`uploading to "${hostname}"`)
