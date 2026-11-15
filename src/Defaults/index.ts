@@ -108,6 +108,19 @@ export const MEDIA_PATH_MAP: { [T in MediaType]?: string } = {
 	'biz-cover-photo': '/pps/biz-cover-photo'
 }
 
+// ==========================================
+// TAMBAHAN PATCH: NEWSLETTER MEDIA PATH
+// ==========================================
+export const NEWSLETTER_MEDIA_PATH_MAP: { [T in MediaType]?: string } = {
+	image: '/newsletter/newsletter-image',
+	video: '/newsletter/newsletter-video',
+	document: '/newsletter/newsletter-document',
+	audio: '/newsletter/newsletter-audio',
+	ptt: '/newsletter/newsletter-ptt',
+	sticker: '/newsletter/newsletter-sticker-pack'
+}
+// ==========================================
+
 export const MEDIA_HKDF_KEY_MAPPING = {
 	audio: 'Audio',
 	document: 'Document',
