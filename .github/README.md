@@ -1,4 +1,4 @@
-<h1><img alt="Baileys logo" src="https://raw.githubusercontent.com/Oval404/up/refs/heads/main/up/Oval.jpg" height="100"/></h1>
+<h1><img alt="Baileys logo" src="https://raw.githubusercontent.com/Oval404/up/refs/heads/main/up/Oval.jpg" height="500"/></h1>
 
 
 > [!CAUTION]
